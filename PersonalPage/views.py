@@ -4,8 +4,8 @@ from django.shortcuts import render
 def home(request):
     return render(request, "PersonalPage/home.html", {})
 
-# def about(request):
-#     return render(request, "PersonalPage/templates/about.html", {})
-#
-# def passion(request):
-#     return render(request, "PersonalPage/templates/passion.html", {})
+def about(request):
+    return render(request, "PersonalPage/about.html", {})
+
+def passion(request):
+    return render(request, "PersonalPage/passion.html", {})

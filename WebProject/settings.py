@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'Messages.apps.MessagesConfig',
     'PersonalPage.apps.PersonalpageConfig',
     'django.contrib.admin',
     'django.contrib.auth',
