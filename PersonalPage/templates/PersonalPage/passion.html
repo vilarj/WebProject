@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Passion</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
 </head>
 <body>
     <div class="menu-passion">
         <ul>
             <li><a href="{% url 'home' %}">Home</a></li>
             <li><a href="{% url 'about' %}">About</a></li>
-            <li><a href="{% url 'passion' %}">Github</a></li>
+            <li><a href="{% url 'contact' %}">Contact</a></li>
         </ul>
     </div>
     <h1>Github link:</h1>

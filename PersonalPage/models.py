@@ -13,13 +13,3 @@ class Name(models.Model):
     def getAge(self):
         return self.age
 
-class Status(models.Model):
-    position = {
-        "Software": "Engineer",
-        "Website": "Developer",
-        "Student": "College/High School"
-    }
-
-    def __str__(self):
-        return
-

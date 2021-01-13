@@ -4,18 +4,17 @@
     <h3><em>Vilarj</em></h3>
     <meta charset="UTF-8">
     <title>Home</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
-    <style>
-        body{font-family: "Trirong", serif;}
-    </style>
 </head>
 <body>
     <h1>Personal Space</h1>
     <div class="menu">
         <ul>
-            <li><a href="{% url 'home' %}">Home</a></li>
             <li><a href="{% url 'about' %}">About</a></li>
             <li><a href="{% url 'passion' %}">Github</a></li>
+            <li><a href="{% url 'contact' %}">Contact</a></li>
         </ul>
     </div>
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.

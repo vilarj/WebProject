@@ -9,3 +9,5 @@ def about(request):
 
 def passion(request):
     return render(request, "PersonalPage/passion.html", {})
+def contact(request):
+    return render(request, "PersonalPage/contact.html", {})

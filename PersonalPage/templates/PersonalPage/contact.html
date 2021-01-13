@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+</head>
+<body>
+    <div class="menu-contact-me">
+        <ul>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'about' %}">About</a></li>
+            <li><a href="{% url 'passion' %}">Github</a></li>
+        </ul>
+    </div>
+    <h1>Contact me</h1>
+    <div class="contact-me">
+        <ul>
+            <li><a href="https://twitter.com/vilarjimenez" target="_blank">Twitter</a></li>
+            <li><a href="https://www.instagram.com/vilarjimenez/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.youtube.com/channel/UCUU4YkLRdT-xnuybPSMJLpQ" target="_blank">Youtube</a></li>
+        </ul>
+    </div>
+</body>
+</html>
