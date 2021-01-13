@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <h3><em>Vilarj</em></h3>
     <meta charset="UTF-8">
     <title>Home</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <style>
+        body{font-family: "Trirong", serif;}
+    </style>
 </head>
 <body>
     <h1>Personal Space</h1>
-    <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Github</li>
-    </ul>
+    <div class="menu">
+        <ul>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'about' %}">About</a></li>
+            <li><a href="{% url 'passion' %}">Github</a></li>
+        </ul>
+    </div>
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
         when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -19,9 +26,5 @@
         Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
         software like Aldus PageMaker including versions of Lorem Ipsum.
     </p>
-
-    <h1>Send me a message</h1>
-    
-
 </body>
 </html>
