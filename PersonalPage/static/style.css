@@ -2,6 +2,21 @@ h1 {
     color: brown;
 }
 
+#header {
+  text-align: center;
+  background-color: brown;
+}
+
 body {
     font-family: "Trirong", serif;
+}
+
+footer {
+  text-align: center;
+  border-style: outset;
+  background-color: brown;
+}
+
+#ending_footer {
+  font-size: 26px;
 }
